@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&family=Space+Mono:ital@0;1&display=swap");
+
+body{
+  font-family: Space Grotesk;
+  background-color: rgba(0,0,0,0.05);
+  padding: 20px;
+  text-align: center;
+}
+h1, h2, h3{
+  font-family: Space mono;
+  color: #053B50;
+}
+li{
+  display: inline;
+  padding: 50px;
+}
+ul{
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #47A992;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+i{
+  font-size: 50px;
+}
+
+.btn-green {
+  color: white;
+  background-color: #47A992;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn-green:hover {
+  color: white;
+  background-color: #89375F;
+}
+
+a:hover{
+  color: #89375F;
+}
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.card{
+  background-color: white;
+  padding: 30px;
+  width: 700px;
+  margin: 25px auto;
+  border-radius: 15px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0px 10px 10px
+#BACDDB;
+}
+
+@media (max-width: 900px) {
+  .card {
+    width: 300px;
+  }
+}
